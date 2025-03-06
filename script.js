@@ -127,10 +127,10 @@ function showResult() {
     questionText.innerText = `Você acertou ${score} de 5 perguntas!`;
 
     if (score >= 3) {
-        let audio = new Audio("/audio/success.mp3");
+        let audio = new Audio("audio/success.mp3");
         audio.play();
     } else {
-        let audio = new Audio("/audio/fail.mp3");
+        let audio = new Audio("audio/fail.mp3");
         audio.play();
     }
 
